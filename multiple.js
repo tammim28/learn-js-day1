@@ -42,11 +42,22 @@
     
 // }
 
-let items = [80, 47, 68, 90, 84, 83];
+// let items = [80, 47, 68, 90, 84, 83];
 
-for (let i = 0; i < items.length; i++) {
-    let offer = items[i] / 10;
-    items[i] -= offer;
+// for (let i = 0; i < items.length; i++) {
+//     let offer = items[i] / 10;
+//     items[i] -= offer;
     
+// }
+// console.log(items);
+
+// function sum(a, b) {
+//     return a + b;
+// }
+// let result = sum(3, 2);
+// console.log(result);
+
+const arrowSum = (a,b) => {
+    console.log(a + b);
 }
-console.log(items);
+arrowSum(5, 5);
