@@ -35,9 +35,18 @@
 // }
 // console.log("Congratulation, You enter right number");
 
-let heroes = ["Ironman", "Thor", "Spiderman", "Batman", "Superman"];
+// let heroes = ["Ironman", "Thor", "Spiderman", "Batman", "Superman"];
 
-for (let index = 0; index < heroes.length; index++) {
-    console.log(heroes[index]);
+// for (let index = 0; index < heroes.length; index++) {
+//     console.log(heroes[index]);
     
+// }
+
+let marks = [80, 47, 68, 90, 84, 83];
+
+let sum = 0;
+for (let mark of marks) {
+    sum += mark;
 }
+let avg = sum / marks.length
+console.log(`Average marks = ${avg}`);
