@@ -27,10 +27,17 @@
 //     }
 // }
 
-let gameNumber = 25;
-let userNumber = prompt("Enter the game number");
+// let gameNumber = 25;
+// let userNumber = prompt("Enter the game number");
 
-while(userNumber != gameNumber){
-    userNumber = prompt("You enter wrong number, please entre again");
+// while(userNumber != gameNumber){
+//     userNumber = prompt("You enter wrong number, please entre again");
+// }
+// console.log("Congratulation, You enter right number");
+
+let heroes = ["Ironman", "Thor", "Spiderman", "Batman", "Superman"];
+
+for (let index = 0; index < heroes.length; index++) {
+    console.log(heroes[index]);
+    
 }
-console.log("Congratulation, You enter right number");
