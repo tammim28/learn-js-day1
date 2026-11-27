@@ -42,11 +42,11 @@
     
 // }
 
-let marks = [80, 47, 68, 90, 84, 83];
+let items = [80, 47, 68, 90, 84, 83];
 
-let sum = 0;
-for (let mark of marks) {
-    sum += mark;
+for (let i = 0; i < items.length; i++) {
+    let offer = items[i] / 10;
+    items[i] -= offer;
+    
 }
-let avg = sum / marks.length
-console.log(`Average marks = ${avg}`);
+console.log(items);
