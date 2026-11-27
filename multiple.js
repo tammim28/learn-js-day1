@@ -57,7 +57,19 @@
 // let result = sum(3, 2);
 // console.log(result);
 
-const arrowSum = (a,b) => {
-    console.log(a + b);
+// const arrowSum = (a,b) => {
+//     console.log(a + b);
+// }
+// arrowSum(5, 5);
+
+function countVowels(str) {
+    let count = 0;
+    for (let char of str) {
+        if (char === "a" || char === "e" || char === "i" || char === "o" || char === "u") {
+            count ++;
+        }
+
+    }
+    console.log(count,);
 }
-arrowSum(5, 5);
+countVowels("apnacollage");
