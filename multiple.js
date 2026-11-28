@@ -87,9 +87,23 @@
 // })
 // console.log(newArr);
 
-let nums = [5, 2, 3, 4, 1];
+// let nums = [5, 2, 3, 4, 1];
 
-const result = nums.reduce((prev, curr) =>{
-    return prev > curr ? prev : curr;
+// const result = nums.reduce((prev, curr) =>{
+//     return prev > curr ? prev : curr;
+// })
+// console.log(result);
+
+let n = prompt("please enter a number: ");
+
+let arr = [];
+
+for (let i = 1; i <= n; i++) {
+    arr[i -1] = i;
+}
+console.log(arr);
+
+let sum = arr.reduce((res, cur) => {
+    return res + cur;
 })
-console.log(result);
+console.log(sum);
