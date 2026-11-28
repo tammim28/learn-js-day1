@@ -87,9 +87,9 @@
 // })
 // console.log(newArr);
 
-let nums = [1, 2, 3, 4, 5];
+let nums = [5, 2, 3, 4, 1];
 
 const result = nums.reduce((prev, curr) =>{
-    return prev + curr;
+    return prev > curr ? prev : curr;
 })
 console.log(result);
