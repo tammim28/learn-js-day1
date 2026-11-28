@@ -80,9 +80,16 @@
 //     console.log(num * num);
 // })
 
-let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
-let newArr = arr.filter((num) =>{
-    return num % 2 === 0;
+// let newArr = arr.filter((num) =>{
+//     return num % 2 === 0;
+// })
+// console.log(newArr);
+
+let nums = [1, 2, 3, 4, 5];
+
+const result = nums.reduce((prev, curr) =>{
+    return prev + curr;
 })
-console.log(newArr);
+console.log(result);
