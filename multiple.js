@@ -62,14 +62,27 @@
 // }
 // arrowSum(5, 5);
 
-function countVowels(str) {
-    let count = 0;
-    for (let char of str) {
-        if (char === "a" || char === "e" || char === "i" || char === "o" || char === "u") {
-            count ++;
-        }
+// function countVowels(str) {
+//     let count = 0;
+//     for (let char of str) {
+//         if (char === "a" || char === "e" || char === "i" || char === "o" || char === "u") {
+//             count ++;
+//         }
 
-    }
-    console.log(count,);
-}
-countVowels("apnacollage");
+//     }
+//     console.log(count,);
+// }
+// countVowels("apnacollage");
+
+// let nums =[2, 3, 4, 5, 6];
+
+// nums.forEach((num) =>{
+//     console.log(num * num);
+// })
+
+let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+let newArr = arr.filter((num) =>{
+    return num % 2 === 0;
+})
+console.log(newArr);
